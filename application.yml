@@ -1,3 +1,5 @@
+server:
+  port: 40000
 eureka:
   client:
     registerWithEureka: true
