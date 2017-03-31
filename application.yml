@@ -8,3 +8,15 @@ eureka:
 ribbon:
   eureka:
     enabled: true
+spring:
+  datasource:
+      hikari:
+          connection-test-query: SELECT 1 FROM DUAL
+          minimum-idle: 1
+          maximum-pool-size: 5
+          pool-name: yourPoolName
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://54.223.77.115:3306/liquidstudio_microservice_demo
+      username: root
+      password: mycai111
+      type: com.zaxxer.hikari.HikariDataSource
