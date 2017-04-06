@@ -1,6 +1,3 @@
-spring:
-  datasource:
-    url: jdbc:mysql://10.0.0.50:3306/expense_service
-    username: root
-    password: mycai111
-    type: com.zaxxer.hikari.HikariDataSource
+logging:
+  level:
+    root: INFO
