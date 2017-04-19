@@ -16,7 +16,7 @@ spring:
           maximum-pool-size: 5
           pool-name: yourPoolName
       driver-class-name: com.mysql.jdbc.Driver
-      url: jdbc:mysql://54.223.77.115:3306/liquidstudio_microservice_demo
+      url: jdbc:mysql://172.31.9.243:3306/liquidstudio_microservice_demo
       username: root
       password: mycai111
       type: com.zaxxer.hikari.HikariDataSource
