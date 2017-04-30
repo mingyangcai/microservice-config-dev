@@ -20,3 +20,6 @@ spring:
       username: root
       password: mycai111
       type: com.zaxxer.hikari.HikariDataSource
+  redis:
+      host: 192.168.95.128
+      port: 6379  
