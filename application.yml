@@ -19,7 +19,6 @@ spring:
       url: jdbc:mysql://172.31.9.243:3306/liquidstudio_microservice_demo
       username: root
       password: mycai111
-      type: com.zaxxer.hikari.HikariDataSource
   redis:
       host: 192.168.95.128
       port: 6379  
